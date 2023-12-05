@@ -1,0 +1,69 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+	text-decoration: none;
+	list-style:none;
+}
+.lorem{
+	height: 100%;
+    background: #000000ad;
+}
+.lorem  .title{
+	background-color: #ccc;
+	padding: 10px;	
+}
+.lorem  .title h3{
+    text-align: center;
+}
+.lorem  .title p{
+	text-align: center;
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;	
+}
+.lorem form{
+    height: 60px;
+    /* background: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+	margin: 0;
+}
+.lorem form input{
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 39px;
+    
+}
+.lorem form input:nth-child(1){
+	-moz-appearance: textfield;
+}.lorem form input:nth-child(2){
+	cursor:pointer;
+}
+.lorem .content{
+	 color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    word-break: break-word;
+    line-height: 1.7;
+}
+
+
+
+
+	
+	
